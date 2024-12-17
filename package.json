@@ -1,0 +1,19 @@
+{
+  "name": "workshop-template",
+  "version": "1.0.0",
+  "description": "Template ready to use with configurations to produce a theme for shopify",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "shop": "cd ./theme && shopify theme dev --store {store-name}",
+    "push": "shopify theme push --unpublished",
+    "build": "shopify theme push --unpublished",
+    "publish": "shopify theme push publish",
+    "compile": "node ./build.js"
+  },
+  "author": "Jose Torres",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "0.24.0"
+  }
+}

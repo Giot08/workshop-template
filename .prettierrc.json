@@ -5,7 +5,7 @@
     {
       "files": "*.liquid",
       "options": {
-        "singleQuote": false
+        "singleQuote": true
       }
     }
   ]
